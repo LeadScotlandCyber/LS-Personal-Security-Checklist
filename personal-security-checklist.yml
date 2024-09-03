@@ -133,7 +133,7 @@
       HTTPS is about how your data is transported, not about who the person is at the other end. 
 
   - point: Block Third-Party Cookies
-    priority: Essential
+    
     details: >-
       Third-party cookies placed on your device by a website other than the one you’re visiting. This
       poses a privacy risk, as a 3rd entity can collect data from your current session. When you visit any website that uses cookies, 
@@ -202,11 +202,12 @@
       Enable security settings, including contact verification, security notifications, and encryption.
       Disable optional non-security features such as read receipt, last online, and typing notification.
 
-  - point: Ensure your Recipients Environment is Secure
+  - point: Ensure your Recipient's Environment is Secure
    
     details: >-
-      Your conversation can only be as secure as the weakest link. Often the easiest way to infiltrate a
-      communications channel is to target the individual or node with the least protection.
+      Your conversations aren't secure if the person you're speaking to isn't in a secure place. Before sending anything sensitive, 
+      ask your recipient if they are in a safe place to recieve important personal information. If they are not,
+      then wait until they are. 
 
    
   
@@ -239,52 +240,45 @@
       Most social networks allow you to control your privacy settings. Ensure that you are comfortable with
       what data you are currently exposing and to whom.
 
-  - point: Think of All Interactions as Public
+  - point: Think of All Interactions as Public and Permanent
     
     details: >-
-      There are still numerous methods of viewing a users 'private' content across many social networks.
-      Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public?"
-
-  - point: Think of All Interactions as Permanent
-    
-    details: >-
-      Pretty much every post, comment, photo etc is being continuously backed up by a myriad of third-party
-      services, who archive this data and make it indexable and publicly available almost forever.
+      Even if we set our privacy settings to the most private, we can't guarantee our private content doesn't become available. Someone with access to our content could screenshot and share it, or our account could be hacked.
+      And once something is online, it can be impossible to get it removed if someone has made a copy of it.
+      Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public for the rest of my life?"
 
   - point: Don't Reveal too Much
-    priority: Essential
+   
     details: >-
-      Profile information creates a goldmine of info for hackers, the kind of data that helps them personalize
-      phishing scams. Avoid sharing too much detail (DoB, Hometown, School etc).
+      When you create your profile on some social media platforms, you are encouraged to give as much detail about yourself as possible.
+      But this information is valuable for cyber criminals, as it can help them create phishing scams targetted at you. Avoid
+      uploading things like your date of birth, your hometown, and where you went to school.
 
-  - point: Be Careful what you Upload
-    priority: Essential
+  - point: Be Careful with what you Upload
+
     details: >-
-      Status updates, comments, check-ins and media can unintentionally reveal a lot more than you intended
+      Status updates, comments, check-ins, images and videos can unintentionally reveal a lot more than you intended
       them to. This is especially relevant to photos and videos, which may show things in the background.
 
   - point: Don't Share Email or Phone Number
-    priority: Essential
-    details: >-
-      Posting your real email address or mobile number, gives hackers, trolls and spammers more munition to
-      use against you, and can also allow separate aliases, profiles or data points to be connected.
 
+    details: >-
+      Never post your real email address or mobile number. Cyber criminals want these to help target 
+      scams towards you. 
+      
   - point: Don't Grant Unnecessary Permissions
-    priority: Essential
+    
     details: >-
-      By default many of the popular social networking apps will ask for permission to access your contacts,
-      call log, location, messaging history etc. If they don’t need this access, don’t grant it.
+      When you download a social media platform's app, the app usually wants permission to do lots of things on your device. 
+      It might want access to your files, your contact list, and your location. Think about what you want your 
+      social media to do, and if it doesn't need the access. don't grant it permission to access it. 
+      It is not likely that your social media needs access to your call log, for example. 
 
-  - point: Be Careful of 3rd-Party Integrations
-    priority: Essential
+  
+  - point: Avoid Publishing your location while still Onsite
+  
     details: >-
-      Avoid signing up for accounts using a Social Network login, revoke access to social apps you no longer
-      use.
-
-  - point: Avoid Publishing Geo Data while still Onsite
-    priority: Essential
-    details: >-
-      If you plan to share any content that reveals a location, then wait until you have left that place.
+      If you plan to share any content that reveals where you are, then wait until you have left that place.
       This is particularly important when you are taking a trip, at a restaurant, campus, hotel/resort, public
       building or airport.
 
@@ -297,7 +291,7 @@
     including configuring your router and setting up a VPN.
   checklist:
   - point: Use a VPN
-    priority: Essential
+
     details: >-
       Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce
       the amount of data your ISP can collect, and increase protection on public WiFi.
