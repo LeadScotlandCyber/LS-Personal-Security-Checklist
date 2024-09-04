@@ -19,7 +19,7 @@
       [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
       passwords can be cracked. Read more about creating strong passwords:
       [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
-      Want to learn more about creating strong passwords? Check out the [How to create a secure password](https://my.lead.org.uk/?sfwd-courses=cyber-how-to-create-a-secure-password&utm_source=Digi-tool) course on My.Lead
+      Want to learn more about creating strong passwords? Check out the [How to create a secure password](https://my.lead.org.uk/?sfwd-courses=cyber-how-to-create-a-secure-password&utm_source=Digi-tool&utm_medium=web&utm_campaign=personal_security) course on My.Lead
 
   - point: Don't reuse Passwords
   
@@ -84,7 +84,7 @@
     minimise online tracking and improve privacy.
   checklist:
   - point: Block Ads
-    priority: Essential
+    
     details: >-
       Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
       [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very
@@ -290,24 +290,27 @@
     This section covers how you connect your devices to the internet securely,
     including configuring your router and setting up a VPN.
   checklist:
-  - point: Use a VPN
+  - point: Use a Virtual Private Network (VPN) while in public
 
     details: >-
-      Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce
-      the amount of data your ISP can collect, and increase protection on public WiFi.
-
-  - point: Change your Router Password
-    priority: Essential
+      A Virtual Private Network (VPN) is a way of connecting to the internet that is much safer than using public wifi. In simple terms, a VPN uses an encrypted (unbreakable code) connection to connect your device 
+      to a different computer through the internet. This is a really important thing to do while in public if you can't use your 4G mobile data connection to access the internet, 
+      as a VPN keeps your data safe from cyber criminals. There are free VPNs, but these can steal your data and sell it on, meaning 
+      they can be passing your details to cyber criminals. You need to use a paid for service with a good reputation. 
+      
+  - point: Change your Router's admin Password
+  
     details: >-
-      After getting a new router, change the password. Default router passwords are publicly available,
-      meaning anyone within proximity would be able to connect.
+      After getting a new router, change the password. Default admin passwords are publicly available,
+      meaning anyone within proximity would be able to monitor your network's traffic.
 
 
   - point: Keep router firmware up-to-date
-    priority: Essential
+    
     details: >-
       Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and
-      sometimes add features or improve the performance of your router.
+      sometimes add features or improve the performance of your router. If you are prompted to update your router's software,
+      make sure you allow it.
 
 
 - title: Mobile Devices
@@ -334,48 +337,40 @@
     us- sometimes they know more than our closest family. It's hard to comprehend
     what your data will reveal, especially in conjunction with other data.
 
-    This data is used for
-    [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) -
-    more often it's used to rate people for finance, insurance and employment.
-    Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
-
-    More of us are concerned about how
-    [governments use collect and use our smart phone data](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/),
-    and rightly so, federal agencies often
-    [request our data from Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/),
-    [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/),
-    Apple, Microsoft, Amazon, and other tech companies. Sometimes requests are
-    made in bulk, returning detailed information on everybody within a certain geo-fence,
-    [often for innocent people](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html).
-    And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
+   
   checklist:
   - point: Encrypt your Device
-    priority: Essential
+   
     details: >-
       In order to keep your data safe from physical access, use file encryption. This will mean if your
       device is lost or stolen, no one will have access to your data.
 
   - point: Turn off connectivity features that aren’t being used
-    priority: Essential
+    
     details: >-
-      When you're not using WiFi, Bluetooth, NFC etc, turn those features off. There are several common threats
-      that utilise these features.
+      When you're not using WiFi or Bluetooth, turn those features off. There are several common threats
+      that use these features. 
 
   - point: Keep app count to a minimum
-    priority: Essential
+  
     details: >-
-      Uninstall apps that you don’t need or use regularly. As apps often run in the background, slowing your
-      device down, but also collecting data.
-
+      Uninstall apps that you don’t need or use regularly. If you have apps on your device that you never use, these can
+      slow your device down and collect data, but more importantly, they can also be a backdoor into your device for cyber criminals. 
+      Many mobile devices now scan for unused apps and prompt you to delete them. If you get a prompt, check it, and delete anything you don't use.
+      
+      
   - point: App Permissions
-    priority: Essential
+   
     details: >-
-      Don’t grant apps permissions that they don’t need. For Android, [Bouncer](https://awesome-privacy.xyz/security-tools/mobile-apps/bouncer) is an app that allows you to grant
-      temporary/ 1-off permissions.
+      Don’t grant apps permissions that they don’t need. For example, if you have a supermarket's app on your device, it might ask for
+      access to your location, your files, and your call log. It is unlikely that your local supermarket actually needs this. 
+      There are two, linked, reasons we want to avoid giving apps access to things they don't need: firstly, we can't be sure what an app is doing with that data,
+      and secondly, if that app is the victim of a cyber attack, all of the extra data would be in the hands of a cyber criminal.
 
   - point: Only install Apps from official source
-    priority: Essential
+  
     details: >-
+      If you see an app online - for example, on social media - you might want to download it. But if we download an app 
       Applications on Apple App Store and Google Play Store are scanned and cryptographically signed, making them
       less likely to be malicious.
 
